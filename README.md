@@ -216,15 +216,6 @@ pip install gunicorn
 gunicorn -w 4 -b 0.0.0.0:8000 app.main:app
 ```
 
-## 📄 Legal
-
-- [Privacy Policy](http://localhost:3000/privacy-policy)
-- [Terms of Use](http://localhost:3000/terms-of-use)
-
-## 👥 Support
-
-For support, email: support@valucarz.com
-
 ## 📄 License
 
 © 2026 Valu Carz. All rights reserved.
