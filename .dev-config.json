@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "frontend": "npm start",
+    "backend": "python main.py",
+    "description": "Start both frontend and backend in development mode"
+  },
+  "build": {
+    "frontend": "npm run build",
+    "backend": "No build required",
+    "description": "Build the frontend for production"
+  },
+  "ports": {
+    "frontend": 3000,
+    "backend": 8000
+  },
+  "api_url": "http://localhost:8000"
+}
