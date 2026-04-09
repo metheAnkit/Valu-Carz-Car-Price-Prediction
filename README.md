@@ -1,4 +1,4 @@
-# Valu Carz - Car Price Prediction Application
+# Valu Carz-Car Price Prediction Application
 
 A full-stack web application for predicting car prices using AI-powered machine learning models.
 
