@@ -542,7 +542,3 @@ npm install
 ```
 
 ---
-
-**🚀 Ready to develop? Just copy and paste any command above!**
-
-Last Updated: January 19, 2026
