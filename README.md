@@ -219,7 +219,7 @@ VITE_API_URL=http://localhost:8000
 ## 🖼️ Car Explorer Images
 
 - Local image folder: `frontend/public/images/explorer/`
-- Naming rule: `car-1.png`, `car-2.png`, ..., `car-200.png`
+- Naming rule: `car-1.png`, `car-2.png`, ..., `car-100.png`
 - The explorer now auto-loads images by car id using `/images/explorer/car-{id}.png`
 - If a local file is missing, it falls back to the existing remote URL, then to `/images/car-placeholder.svg`
 
