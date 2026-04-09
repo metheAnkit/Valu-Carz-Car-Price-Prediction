@@ -20,6 +20,7 @@ Valu Carz/
 │   │   ├── components/      # Reusable components
 │   │   ├── pages/          # Page components
 │   │   ├── styles/         # Global styles
+│   │   ├── assets/         # Images and icons
 │   │   ├── App.jsx
 │   │   └── index.jsx
 │   ├── package.json
@@ -44,6 +45,21 @@ Valu Carz/
 - **pip**
 
 ## 🛠️ Installation & Setup
+
+## ⚡ Frontend Quick Start
+
+From the `frontend` directory:
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
 
 ### Frontend Setup
 
@@ -168,6 +184,13 @@ Returns all available options for dropdowns.
 5. **Privacy Policy** - Data protection information
 6. **Terms of Use** - Usage terms and conditions
 
+## 🧩 Frontend Components
+
+- **Navigation** - Top navigation bar
+- **Footer** - Bottom footer with links
+- **Button** - Reusable button component
+- **Card** - Reusable card component
+
 ## 🔧 Technology Stack
 
 ### Frontend
@@ -198,7 +221,7 @@ VITE_API_URL=http://localhost:8000
 - Local image folder: `frontend/public/images/explorer/`
 - Naming rule: `car-1.png`, `car-2.png`, ..., `car-200.png`
 - The explorer now auto-loads images by car id using `/images/explorer/car-{id}.png`
-- If a local file is missing, it falls back to the existing remote URL, then to placeholder
+- If a local file is missing, it falls back to the existing remote URL, then to `/images/car-placeholder.svg`
 
 **Backend**
 Uses `Car_Price_Prediction_Dataset.csv` automatically
@@ -227,4 +250,4 @@ For support, email: support@valucarz.com
 
 ## 📄 License
 
-© 2026 Valu Carz. All rights reserved.
+Copyright © 2026 Valu Carz. All rights reserved.
